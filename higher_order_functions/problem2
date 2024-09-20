@@ -1,0 +1,8 @@
+
+list1 = [10, 20, 30]
+list2 = [5, 25, 35]
+max_values = list(map(max, list1, list2))
+print(max_values) 
+
+min_values = list(map(min, list1, list2))
+print(min_values)  
