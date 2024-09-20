@@ -1,0 +1,5 @@
+
+numbers = [3, 5, 9, 12, 18, 21, 25, 30]
+result = list(filter(lambda x: x % 3 == 0, numbers))
+
+print(result)
