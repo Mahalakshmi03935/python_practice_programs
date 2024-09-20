@@ -1,0 +1,5 @@
+
+words = ["madam", "apple", "radar", "banana", "level"]
+palindromes = list(filter(lambda word: word == word[::-1], words))
+
+print(palindromes)  
