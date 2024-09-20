@@ -1,0 +1,5 @@
+
+words_with_spaces = ["  Raja  ", " Maha ", "  Lakshmi  "]
+cleaned_words = list(map(str.strip, words_with_spaces))
+
+print(cleaned_words) 
