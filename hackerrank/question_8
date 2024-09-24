@@ -1,0 +1,6 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    non_dup=list(set(arr))
+    non_dup.sort()
+    print(non_dup[-2])
